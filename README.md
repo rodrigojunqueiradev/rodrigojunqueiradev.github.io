@@ -4,6 +4,9 @@ Oi, eu sou o Rodrigo.
 
 Sou um desenvolvedor Front-End.
 
+Meu portfólio está em construção e este repositório sera a base para minha página. As informações dele são apenas para testes.
+Meu objetivo é deixar ele pronto até 10/2024.
+
 Clique neste [link](https://rodrigojunqueiradev.github.io/) para acessar meu portfólio:
 https://rodrigojunqueiradev.github.io/ 
 
@@ -48,3 +51,5 @@ https://rodrigojunqueiradev.github.io/
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white)](https://rodrigojunqueiradev.github.io/)
 
+Malfeito feito.
+Made by ♡ for Rodrigo Junqueira
