@@ -1,4 +1,4 @@
-# Modelo de Portfólio - Lobo
+# Portfólio
 
 Oi, eu sou o Rodrigo.
 
