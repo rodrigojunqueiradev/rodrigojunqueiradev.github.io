@@ -6,65 +6,144 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rodrigo Junqueira - Desenvolvedor Front-End</title>
     <meta name="description" content="Desenvolvedor Front-End e UX/UI Designer">
+
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
-<header>
-    Click here for English version
-    <ul class="header-menu">
-        <li><a href="#introducao">Introdução</a></li>
-        <li><a href="#experiencias">Experiência</a></li>
-        <li><a href="#formacao">Formação</a></li>
-        <li><a href="#demais-cursos">Demais cursos / Certificações</a></li>
-        <li><a href="#outras-informacoes">Outras informações</a></li>
-        <li><a href="#contato">Contato</a></li>
-    </ul>
-</header>
-
-<main class="introducao" id="introducao">
-    <h1>Introdução</h1>
-    <p>Oi, eu sou o Rodrigo.</p>
-    <p>Este é meu portfólio que está em fase de desenvolvimento.</p>
-</main>
-
-<section class="experiencias" id="experiencias" aria-label="Experiências">
-    <h1>Experiências</h1>
-    <p>Experiências</p>
-</section>
-
-<section class="formacao" id="formacao" aria-label="Formação Acadêmica">
-    <h1>Formação Acadêmica</h1>
-    <p>Oi</p>
-</section>
-
-<section class="demais-cursos" id="demais-cursos" aria-label="Demais Cursos">
-    <h1>Demais Cursos</h1>
-    <p>Oi</p>
-</section>
-
-<section class="outras-informacoes" id="outras-informacoes" aria-label="Outras informações">
-    <h1>Outras Informações</h1>
-    <h2>Esse é o Lucky:</h2>
-    <img src="./img/lucky1.jpg" alt="">
-    <h2>Esse é o Tobi:</h2>
-    <img src="./img/tobi1.jpg" alt="">
-    <h1>Super modo sapo ativado:</h1>
-    <img src="./img/lucky-modo-sapo.jpg" alt="">
-
-</section>
-
-<footer>
-    <div class="footer-container" id="contato">
-        <h1 class="footer-texto">Contato 👋</h1>
-        <ul class="footer-contato">
-            <li><a href="mailto:eurodrigojunqueira@gmail.com">eurodrigojunqueira@gmail.com</a></li>
-        </ul>
-        <p class="footer-copy">Made by ♡ for Rodrigo Junqueira</p>
-    </div>
-</footer>
-
 <body>
+    <header>
+        <div class="linguagem-bg">
+            <div class="linguagem container">
+                <p>You're in Portuguese version, <span class="destaque-click"><a href="#">Click Here</a></span> for
+                    English
+                    version.</p>
+            </div>
+        </div>
+        <div class="header container">
+            <a href="#">Logotipo SVG</a>
+            <ul class="header-lista">
+                <li><a href="#introducao">Introdução</a></li>
+                <li><a href="#projetos-em-destaque">Introdução</a></li>
+                <li><a href="#experiencias">Experiência</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#demais-cursos">Demais cursos / Certificações</a></li>
+                <li><a href="#outras-informacoes">Outras informações</a></li>
+                <li><a href="#demais-projetos">Outras informações</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </div>
+    </header>
 
+    <main class="introducao container" id="introducao">
+        <div class="introducao-inicial">
+            <h1 class="titulo">Introdução</h1>
+            <ul>
+                <li>Oi, eu sou o Rodrigo.</li>
+                <li>Este é meu portfólio que está em fase de desenvolvimento.</li>
+                <li>Sou Desenvolvedor Front-End.</li>
+            </ul>
+        </div>
+
+        <div class="introducao-destaques" id="projetos-em-destaque">
+            <h1 class="titulo">Projetos em Destaque</h1>
+            <ul class="projetos-destaques">
+                <li><img src="./img/lucky1.jpg" alt=""></li>
+                <li><img src="./img/tobi1.jpg" alt=""></li>
+                <li>Lorem, ipsum dolor.</li>
+                <li>Lorem, ipsum dolor.</li>
+                <li>Lorem, ipsum dolor.</li>
+                <li>Lorem, ipsum dolor.</li>
+                <li>Lorem, ipsum dolor.</li>
+            </ul>
+        </div>
+    </main>
+
+    <section class="experiencias-bg" id="experiencias" aria-label="Experiências">
+        <div class="experiencias container">
+            <h1 class="titulo">Experiências</h1>
+            <ul class="experiencias-lista">
+                <li>Lorem ipsum, dolor sit amet consectetur adipisicing.</li>
+                <li>Lorem ipsum, dolor sit amet consectetur adipisicing.</li>
+                <li>Lorem ipsum, dolor sit amet consectetur adipisicing.</li>
+                <li>Lorem ipsum, dolor sit amet consectetur adipisicing.</li>
+                <li>Lorem ipsum, dolor sit amet consectetur adipisicing.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="formacao-bg" id="formacao" aria-label="Formação Acadêmica">
+        <div class="formacao container">
+            <h1 class="titulo">Formação Acadêmica</h1>
+            <ul class="formacao-lista">
+                <li>Lorem ipsum dolor sit amet <span class="detalhe-traco"> - </span><span class="periodo">Jan/2010 -
+                        Dez/2020</span></li>
+                <li>Lorem ipsum dolor sit amet <span class="detalhe-traco"> - </span><span class="periodo">Jan/2010 -
+                        Dez/2020</span></li>
+                <li>Lorem ipsum dolor sit amet <span class="detalhe-traco"> - </span><span class="periodo">Jan/2010 -
+                        Dez/2020</span></li>
+                <li>Lorem ipsum dolor sit amet <span class="detalhe-traco"> - </span><span class="periodo">Jan/2010 -
+                        Dez/2020</span></li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="demais-cursos-bg" id="demais-cursos" aria-label="Demais Cursos">
+        <div class="demais-cursos container">
+            <h1 class="titulo">Demais Cursos</h1>
+            <ul class="demais-cursos-lista">
+                <li>Lorem ipsum dolor sit amet consectetur.</li>
+                <li>Lorem ipsum dolor sit amet consectetur.</li>
+                <li>Lorem ipsum dolor sit amet consectetur.</li>
+                <li>Lorem ipsum dolor sit amet consectetur.</li>
+                <li>Lorem ipsum dolor sit amet consectetur.</li>
+                <li>Lorem ipsum dolor sit amet consectetur.</li>
+                <li>Lorem ipsum dolor sit amet consectetur.</li>
+                <li>Lorem ipsum dolor sit amet consectetur.</li>
+                <li>Lorem ipsum dolor sit amet consectetur.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="outras-informacoes-bg" id="outras-informacoes" aria-label="Outras informações">
+        <div class="outras-informacoes container">
+            <h1 class="titulo">Outras Informações</h1>
+            <ul class="outras-informacoes-lista">
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, officia.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, officia.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, officia.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, officia.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, officia.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="demais-projetos-bg" id="demais-projetos" aria-label="Demais Projetos">
+        <div class="demais-projeto container">
+            <h1 class="titulo">Demais Projetos</h1>
+            <ul class="demais-projetos-lista">
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer class="footer-bg">
+        <div class="footer container" id="contato">
+            <h2 class="footer-titulo">Contato 👋</h2>
+            <ul class="footer-contato">
+                <li><a href="mailto:eurodrigojunqueira@gmail.com">eurodrigojunqueira@gmail.com</a></li>
+                <li><a href="https://github.com/rodrigojunqueiradev">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/rodrigo-junqueira/">LinkedIn</a></li>
+            </ul>
+            <p class="footer-copy">Made by ♡ for Rodrigo Junqueira</p>
+            <p class="footer-copy">© Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
