@@ -1,20 +1,21 @@
-**This is the Portuguese version of README.md, go down for the English Version**
+❗ **This is the Portuguese version of README.md, go down for the English Version** ⤵️
 
-# Portfólio
+Versão em Português:
+
+# 👋 Portfólio
 
 Oi, eu sou o Rodrigo.
 
 Sou um desenvolvedor Front-End.
 
 Meu portfólio está em construção e este repositório sera a base para minha página. As informações dele são apenas para testes.
-Meu objetivo é deixar ele pronto até 10/2024.
 
 Clique neste [link](https://rodrigojunqueiradev.github.io/) para acessar meu portfólio:
 https://rodrigojunqueiradev.github.io/
 
 ![Top Langs](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=rodrigojunqueiradev&bg_color=000&border_color=30A3DC&title_color=E94D5F&text_color=FFF)
 
-## Características Principais
+## 💡 Características Principais
 
 - **Design Responsivo**: Design responsivo para todos os dispositivos e telas.
 - **Tema Claro/Escuro**: Configuração de temas de escolha do usuário.
@@ -22,7 +23,7 @@ https://rodrigojunqueiradev.github.io/
 - **Característica4**:
 - **Característica5**:
 
-## Tecnologias e Ferramentas
+## 🛠️ Tecnologias e Ferramentas
 
 - ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 
@@ -44,7 +45,7 @@ https://rodrigojunqueiradev.github.io/
 
 - ![Vscode](https://img.shields.io/badge/Vscode-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
-# Seções
+# 📝 Seções
 
 1. **Home**
 
@@ -85,7 +86,7 @@ https://rodrigojunqueiradev.github.io/
    - Formulário de contato
    - Links para redes sociais
 
-## Estrutura do projeto
+## 📁 Estrutura do projeto
 
 ```
 rodrigojunqueiradev.github.io
@@ -100,11 +101,11 @@ rodrigojunqueiradev.github.io
 └── index.html
 ```
 
-## Compatibilidade
+## 💻📱📺 Compatibilidade
 
 ## Recursos visuais
 
-## Contato - Fale comigo
+## 📬 Contato - Fale comigo
 
 - [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rodrigo-junqueira/)
 
@@ -114,3 +115,9 @@ rodrigojunqueiradev.github.io
 
 Malfeito feito. <br>
 Made by ♡ for Rodrigo Junqueira
+
+#
+
+English version:
+
+# 👋 Portfolio
