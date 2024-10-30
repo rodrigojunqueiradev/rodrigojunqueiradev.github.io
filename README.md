@@ -9,6 +9,7 @@ Oi, eu sou o Rodrigo.
 Sou um desenvolvedor Front-End.
 
 Meu portfólio está em construção e este repositório sera a base para minha página. As informações dele são apenas para testes.
+Este é meu portfólio profissional desenvolvido com HTML5, CSS3 e JavaScript, com foco em boas práticas de desenvolvimento, responsividade e experiência do usuário.
 
 Clique neste [link](https://rodrigojunqueiradev.github.io/) para acessar meu portfólio:
 https://rodrigojunqueiradev.github.io/
@@ -45,7 +46,7 @@ https://rodrigojunqueiradev.github.io/
 
 - ![Vscode](https://img.shields.io/badge/Vscode-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
-# 📝 Seções
+## 📝 Seções
 
 1. **Home**
 
@@ -81,7 +82,11 @@ https://rodrigojunqueiradev.github.io/
 
    - Cursos extracurriculares que cursei ou estou cursando
 
-8. **Contato**
+8. **Demais conteúdos**
+
+   - A
+
+9. **Contato**
 
    - Formulário de contato
    - Links para redes sociais
@@ -101,7 +106,7 @@ rodrigojunqueiradev.github.io
 └── index.html
 ```
 
-## 💻📱📺 Compatibilidade
+## Compatibilidade 💻📱📺
 
 ## Recursos visuais
 
