@@ -28,3 +28,7 @@ img {
   height: auto;
   display: block;
 }
+
+.highlight {
+  font-weight: bold;
+}

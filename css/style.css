@@ -1,0 +1,22 @@
+@import "./global/global.css";
+@import "./util/typography.css";
+@import "./util/colors.css";
+@import "./util/animations.css";
+
+@import "./global/header.css";
+@import "./global/footer.css";
+
+/* Home */
+@import "./home/home.css";
+
+/* Portfolio */
+@import "./portfolio/introduction.css";
+@import "./portfolio/highlighted-projects.css";
+@import "./portfolio/experiences.css";
+@import "./portfolio/academic-background.css";
+@import "./portfolio/other-courses.css";
+@import "./portfolio/other-informations.css";
+@import "./portfolio/more-projects.css";
+
+/* Projects */
+@import "./projects/projects.css";
