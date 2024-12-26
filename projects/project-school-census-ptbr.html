@@ -28,7 +28,7 @@
     <link rel="stylesheet" href="#" type="image/svg+xml">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
 
     <!-- Title -->
     <title>Dados com Rodrigo Junqueira</title>
@@ -60,12 +60,17 @@
                     href="https://www.linkedin.com/in/rodrigo-junqueira/" target="_blank">Rodrigo Junqueira</a></p>
             <hr>
 
+            <h2 class="mb-2 mt-4">Introdução</h2>
             <p>Este estudo foi realizado como ferramenta auxiliar no trabalho de conclusão de curso (TCC) para obtenção
                 do título de "MBA em Data Science and Analytics" pela USP.</p>
             <p>Toda fonte de dados foi obtida gratuitamente através dos microdados publicados pelo "gov.br" em: <a
                     href="https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/censo-escolar">Microdados
                     Censo Escolar</a>
             </p>
+            <p>O repositório deste estudo pode ser consultado <a
+                    href="https://github.com/rodrigojunqueiradev/exploratory-data-analysis-of-school-census-of-tatui"
+                    target="_blank">clicando
+                    aqui.</a></p>
             <p>O estudo consiste em:</p>
             <ul>
                 <li>Análise exploratória em linguagem Python;</li>
@@ -73,11 +78,11 @@
                     escolar.</li>
             </ul>
 
-            <h2>Desenvolvimento</h2>
+            <h2 class="mb-2 mt-4">Desenvolvimento</h2>
             <p>Para guiar o desenvolvimento, busquei responder algumas perguntas, como:</p>
-            <ol>
+            <ol class="project-list">
                 <dt>Sobre a análise geral dos dados:</dt>
-                <ul>
+                <ul class="project-list">
                     <li>Qual é quantidade de estudantes da região imediata de Tatuí?</li>
                     <li>Qual é a quantidade de docentes da região?</li>
                     <li>Quais são as quantidades de estudantes organizados pelas etapas da educação básica?</li>
@@ -85,7 +90,7 @@
                     <li>Qual é a diferença entre de matrículas entre os anos de 2022 e 2023?</li>
                 </ul>
                 <dt>Sobre a distribuição de recursos e infraestrutura:</dt>
-                <ul>
+                <ul class="project-list">
                     <li>Como as escolas estão distribuídas por tamanho (número de alunos e professores) e localização
                         (zona rural ou urbana)?</li>
                     <li>Como se distribuem as infraestruturas nas escolas?</li>
@@ -95,16 +100,100 @@
                         elétrica?</li>
                 </ul>
                 <dt>Sobre a desigualdade por gênero e cor/raça:</dt>
-                <ul>
+                <ul class="project-list">
                     <li>Há uma diferença significativa na taxa de matrícula entre os gêneros feminino e masculino?</li>
                     <li>Qual é a distribuição racial dos estudantes?</li>
                 </ul>
             </ol>
 
-            <h2>Resultados:</h2>
+            <h2 class="mb-2 mt-4">Resultados:</h2>
+
+            <h3 class="mb-2">Análise via Python</h3>
+            <p>Todo estudo foi armazenado no repositório: <a
+                    href="https://github.com/rodrigojunqueiradev/exploratory-data-analysis-of-school-census-of-tatui"
+                    target="_blank">acesse aqui.</a></p>
+
+            <h3 class="mb-2 mt-4">Dashboard</h3>
+            <p>Para responder as perguntas, elaborei um dashboard com 4 guias, sendo elas:</p>
+            <ul class="project-list">
+                <li>Visão geral</li>
+                <li>Infraestrutura</li>
+                <li>Recursos de informática</li>
+                <li>Análise de gênero e cor/raça</li>
+            </ul>
+            <p>Em todas as guias foram configurados filtros para navegar entre os munícipios envolvidos na região
+                geográfica imediata.</p>
+            <div id="carouselDashboard" class="carousel carousel-dark slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselDashboard" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselDashboard" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselDashboard" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselDashboard" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="../assets/img/exploratory-data-analysis-of-the-school-census-of-tatui/ds1-overwiew.png"
+                            class="d-block w-100" alt="Visão geral">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="../assets/img/exploratory-data-analysis-of-the-school-census-of-tatui/ds2-infrastructure.png"
+                            class="d-block w-100" alt="Infraestrutura">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../assets/img/exploratory-data-analysis-of-the-school-census-of-tatui/ds3-computer-resources.png"
+                            class="d-block w-100" alt="Recursos de informática">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../assets/img/exploratory-data-analysis-of-the-school-census-of-tatui/ds4-gender-and-race-analysis.png"
+                            class="d-block w-100" alt="Análise de gênero e cor/raça">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselDashboard"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselDashboard"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
 
         </article>
+
+        <footer class="container py-3 my-4">
+            <hr>
+            <h4 class="text-body-emphasis text-center">Me contate <svg xmlns="http://www.w3.org/2000/svg" width="32"
+                    height="32" fill="currentColor" class="bi bi-person-raised-hand" viewBox="0 0 16 16">
+                    <path
+                        d="M6 6.207v9.043a.75.75 0 0 0 1.5 0V10.5a.5.5 0 0 1 1 0v4.75a.75.75 0 0 0 1.5 0v-8.5a.25.25 0 1 1 .5 0v2.5a.75.75 0 0 0 1.5 0V6.5a3 3 0 0 0-3-3H6.236a1 1 0 0 1-.447-.106l-.33-.165A.83.83 0 0 1 5 2.488V.75a.75.75 0 0 0-1.5 0v2.083c0 .715.404 1.37 1.044 1.689L5.5 5c.32.32.5.754.5 1.207" />
+                    <path d="M8 3a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3" />
+                </svg></h4>
+            <ul class="nav nav-underline justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="mailto:eurodrigojunqueira@gmail.com" target="_blank"
+                        class="nav-link px-2 text-body-secondary ">eurodrigojunqueira@gmail.com</a></li>
+                <li class="nav-item"><a href="https://github.com/rodrigojunqueiradev" target="_blank"
+                        class="nav-link px-2 text-body-secondary">GitHub</a></li>
+                <li class="nav-item"><a href="https://www.linkedin.com/in/rodrigo-junqueira/" target="_blank"
+                        class="nav-link px-2 text-body-secondary">LinkedIn</a></li>
+            </ul>
+            <p class="text-center text-body-secondary">© 2024 Feito com <span class="color-red">♡</span> por Rodrigo
+                Junqueira</p>
+        </footer>
     </div>
+
+    <!-- Principal script -->
+    <script src="./js/script.js"></script>
+
+    <!-- Bootstrap script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

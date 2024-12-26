@@ -1,0 +1,52 @@
+:root {
+  --color-yellow: #ffaa00;
+  --color-black: #111111;
+  --color-gray: #e5e2db;
+  --color-green: #365a08;
+  --color-red: #c32e58;
+  --gradient-color: linear-gradient(#d4e157, #388e3c);
+}
+
+.color-yellow {
+  color: var(--color-yellow);
+}
+
+.color-yellow-bg {
+  background-color: var(--color-yellow);
+}
+
+.color-black {
+  color: var(--color-black);
+}
+
+.color-black-bg {
+  background-color: var(--color-black);
+}
+
+.color-gray {
+  color: var(--color-gray);
+}
+
+.color-gray-bg {
+  background-color: var(--color-gray);
+}
+
+.color-green {
+  color: var(--color-green);
+}
+
+.color-green-bg {
+  background-color: var(--color-green);
+}
+
+.color-red {
+  color: var(--color-red);
+}
+
+.gradient-color {
+  color: var(--gradient-color);
+}
+
+.gradient-color-bg {
+  background-color: var(--gradient-color);
+}
