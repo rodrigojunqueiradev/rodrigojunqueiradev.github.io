@@ -53,16 +53,122 @@
     <!-- Article -->
     <div class="container">
         <article class="blog-post">
-            <h2 class="display-5 link-body-emphasis mb-1">Título</h2>
-            <p class="blog-post-meta">26 de Dezembro de 2024 por <a
-                    href="https://www.linkedin.com/in/rodrigo-junqueira/" target="_blank">Rodrigo Junqueira</a></p>
+            <h2 class="display-5 link-body-emphasis mb-1">Controle de Orçamento Pessoal</h2>
+            <p class="blog-post-meta">22 de Abril de 2024 por <a href="https://www.linkedin.com/in/rodrigo-junqueira/"
+                    target="_blank">Rodrigo Junqueira</a></p>
             <hr>
 
-            <h2 class="mb-2 mt-4">Seção</h2>
-            <p>Blábláblá</p>
+            <h2 class="mb-2 mt-4">Introdução</h2>
+            <p>Todos os nomes envolvidos nesta publicação são aleatórios.</p>
+            <p>Em um trabalho de freelancer, a cliente fez a seguinte solicitação:</p>
 
-            <h2 class="mb-2 mt-4">Seção</h2>
-            <p>Blábláblá</p>
+            <blockquote class="blockquote mt-4">
+                <p>"Criação de Modelo de Excel para Acompanhamento de Finanças Pessoais
+                    Este projeto envolve a criação de um modelo de Excel que funcione como uma planilha para o
+                    acompanhamento de receitas e despesas, especificamente para o gerenciamento de finanças pessoais.
+                    O principal objetivo é desenvolver uma ferramenta fácil de usar e personalizável que permita aos
+                    usuários registrar suas receitas, despesas e orçamento de maneira eficaz. O modelo de Excel pode
+                    incluir recursos como planilhas separadas para receitas e despesas, categorização de gastos,
+                    gráficos e visualizações, funcionalidade para estabelecer metas financeiras e outros recursos
+                    relevantes. Confiamos em sua experiência para incluir o que achar necessário!"</p>
+            </blockquote>
+
+            <h2 class="mb-2 mt-4">Desenvolvimento</h2>
+            <h4>Guia de Receitas</h4>
+            <p>Para a guia de receitas, desenvolvi um controle mensal, onde o usuário tem: </p>
+            <ul class="project-list">
+                <li>Um campo de texto livre para o nome da receita;</li>
+                <li>
+                    Um campo para o tipo da receita, que é composto por uma lista padronizada, conforme a imagem abaixo:
+                    <img class="border" src="../../assets/img/personal-budget-control/revenues-type.png"
+                        alt="Lista de Receitas">
+                </li>
+                <li>
+                    Cálculo somatório automático organizad por:
+                    <ul class="project-list">
+                        <li>Bimestral</li>
+                        <li>Trimestral</li>
+                        <li>Semestral</li>
+                        <li>Anual</li>
+                    </ul>
+                </li>
+            </ul>
+            <h4 class="mt-4">Guia de Despesas</h4>
+            <p>Para a guia de despesas, desenvolvi um controle mensal, onde o usuário tem: </p>
+            <ul class="project-list">
+                <li>Um campo de texto livre para o nome da despesa;</li>
+                <li>
+                    Um campo para o tipo da despesa, que é composto por uma lista padronizada, conforme a imagem abaixo:
+                    <img class="border" src="../../assets/img/personal-budget-control/expenses-type.png"
+                        alt="Lista de Receitas">
+                </li>
+                <li>
+                    Cálculo somatório automático organizad por:
+                    <ul class="project-list">
+                        <li>Bimestral</li>
+                        <li>Trimestral</li>
+                        <li>Semestral</li>
+                        <li>Anual</li>
+                    </ul>
+                </li>
+            </ul>
+            <h4 class="mt-4">Guia de Orçamento</h4>
+            <p>A guia de orçamento é um dashboard, em layout pronto para impressão ou para salvar em PDF, de todos os
+                dados informados nas
+                guias de Receitas e Despesas.</p>
+            <p>O dashboard possue filtros de período e por quais tipos de receitas e despesas.</p>
+            <h4 class="mt-4">Guia Modalidades</h4>
+            <p>A planilha ainda disponibiliza ao usuário uma guia chamada "Modalidades", onde ele tem a possibilidade de
+                incluir/alterar/excluir os tipos padronizados de receitas e despesas.</p>
+
+            <h2 class="mb-2 mt-4">Resultado</h2>
+            <div id="carouselDashboard" class="carousel carousel-dark slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselDashboard" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselDashboard" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselDashboard" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselDashboard" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="../../assets/img/personal-budget-control/revenues.png" class="d-block w-100 border"
+                            alt="Receitas">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="../../assets/img/personal-budget-control/expenses.png" class="d-block w-100 border"
+                            alt="Despesas">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../../assets/img/personal-budget-control/report1.png" class="d-block w-100 border"
+                            alt="Relatório Parte 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../../assets/img/personal-budget-control/report2.png" class="d-block w-100 border"
+                            alt="Relatório Parte 2">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselDashboard"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselDashboard"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <p class="lead py-2">Faça o download do relatório: </p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                <a href="../../assets/docs/personal-budget-control/report.pdf" download
+                    class="btn btn-outline-dark btn-lg px-4 me-md-2">
+                    Download do Relatório
+                </a>
+            </div>
 
         </article>
     </div>

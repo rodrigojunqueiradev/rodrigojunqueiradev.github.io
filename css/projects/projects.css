@@ -3,5 +3,7 @@
 }
 
 .project-list {
-  list-style: circle;
+  list-style-type: circle;
+  list-style-position: outside;
+  padding-left: 32px;
 }
