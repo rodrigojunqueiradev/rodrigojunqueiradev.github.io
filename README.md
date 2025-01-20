@@ -173,5 +173,5 @@ https://rodrigojunqueiradev.github.io/
 
 - [![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white)](https://rodrigojunqueiradev.github.io/)
 
-Mischief Managed. <br>
+Mischief Managed <br>
 Made by ♡ for Rodrigo Junqueira
