@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
     <!-- Google Fonts -->
@@ -31,19 +31,21 @@
     <link rel="stylesheet" href="../../css/style.css">
 
     <!-- Title -->
-    <title>Dados com Rodrigo Junqueira</title>
+    <title>Data with Rodrigo Junqueira</title>
 </head>
 
 <body>
+    <!-- Header -->
     <header class="container d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
         <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
             <svg class="bi me-2" width="40" height="32">
                 <use xlink:href="#bootstrap"></use>
             </svg>
-            <span class="fs-4">Dados com Rodrigo Junqueira</span>
+            <span class="fs-4">Data with Rodrigo Junqueira</span>
         </a>
+
         <ul class="nav nav-pills">
-            <li class="nav-item"><a href="../../index.html" class="nav-link" aria-current="page">Home</a></li>
+            <li class="nav-item"><a href="../../index-en.html" class="nav-link" aria-current="page">Home</a></li>
             <li class="nav-item"><a href="https://www.linkedin.com/in/rodrigo-junqueira/" class="nav-link">LinkedIn</a>
             </li>
             <li class="nav-item"><a href="https://github.com/rodrigojunqueiradev" class="nav-link">GitHub</a></li>
@@ -52,24 +54,57 @@
 
     <!-- Article -->
     <div class="container">
-        <article class="blog-post">
-            <h2 class="display-5 link-body-emphasis mb-1">Título</h2>
-            <p class="blog-post-meta">26 de Dezembro de 2024 por <a
-                    href="https://www.linkedin.com/in/rodrigo-junqueira/" target="_blank">Rodrigo Junqueira</a></p>
-            <hr>
+        <div class="container">
+            <article class="blog-post">
+                <h2 class="display-5 link-body-emphasis mb-1">Public Data Analysis of Elderly Care Units</h2>
+                <p class="blog-post-meta">January 31, 2025 by <a href="https://www.linkedin.com/in/rodrigo-junqueira/"
+                        target="_blank">Rodrigo Junqueira</a></p>
+                <hr>
 
-            <h2 class="mb-2 mt-4">Seção</h2>
-            <p>Blábláblá</p>
+                <h2 class="mb-2 mt-4">Introduction</h2>
+                <p>A private client requested an analysis of data from elderly care units in the Censo Suas, conducted
+                    by the government and publicly released on gov.br.</p>
+                <p>The client is a writer and needs descriptive and statistical analyses of the data.</p>
+                <p>The client provided me with 18 questions that needed to be answered in his writing, requesting
+                    various types of tables and charts for each question. Based on the results, he would develop his
+                    text and include the charts he found relevant.</p>
+                <p>The analyses needed to be temporal, comparing the years from 2019 to 2023.</p>
+                <p>The publicly available data contains a lot of noise and is difficult to interpret. Therefore, before
+                    conducting a detailed analysis, the client needed the data source to be cleaned.</p>
+                <p>All data cleaning and transformation were performed using the Python programming language.</p>
+                <p>All analysis was conducted in Excel, the client’s platform of choice.</p>
 
-            <h2 class="mb-2 mt-4">Seção</h2>
-            <p>Blábláblá</p>
+                <h2 class="mb-2 mt-4">Project Stages</h2>
+                <p>The following steps were taken for the project development:</p>
+                <ol>
+                    <li>Analysis of public data.</li>
+                    <li>Video call with the client to agree on the project stages.</li>
+                    <li>Data collection, cleaning, and transformation using Python.</li>
+                    <li>Statistical analysis.</li>
+                    <li>Final delivery.</li>
+                </ol>
 
-        </article>
+                <h2 class="mb-2 mt-4">Development</h2>
+                <p>The data used in the project was publicly collected from: <a href=""></a></p>
+                <p>Data cleaning and transformation were performed using Jupyter Notebook, with the Python programming
+                    language and the Pandas library.</p>
+                <p>During the cleaning and transformation process, I adjusted all inconsistencies in the data source and
+                    generated a new clean and unified dataset covering the five years of analysis.</p>
+                <p>In Excel, I created 18 sheets corresponding to the questions requested by the client, with various
+                    types of charts and tables.</p>
+
+                <h2 class="mb-2 mt-4">Delivery</h2>
+                <p>The final project result was an Excel file with explanations and detailed descriptions of all the
+                    variables the client needed to address.</p>
+            </article>
+        </div>
+
     </div>
 
+    <!-- Footer -->
     <footer class="container py-3 my-4">
         <hr>
-        <h4 class="text-body-emphasis text-center">Me contate <svg xmlns="http://www.w3.org/2000/svg" width="32"
+        <h4 class="text-body-emphasis text-center">Contact me <svg xmlns="http://www.w3.org/2000/svg" width="32"
                 height="32" fill="currentColor" class="bi bi-person-raised-hand" viewBox="0 0 16 16">
                 <path
                     d="M6 6.207v9.043a.75.75 0 0 0 1.5 0V10.5a.5.5 0 0 1 1 0v4.75a.75.75 0 0 0 1.5 0v-8.5a.25.25 0 1 1 .5 0v2.5a.75.75 0 0 0 1.5 0V6.5a3 3 0 0 0-3-3H6.236a1 1 0 0 1-.447-.106l-.33-.165A.83.83 0 0 1 5 2.488V.75a.75.75 0 0 0-1.5 0v2.083c0 .715.404 1.37 1.044 1.689L5.5 5c.32.32.5.754.5 1.207" />
@@ -83,7 +118,7 @@
             <li class="nav-item"><a href="https://www.linkedin.com/in/rodrigo-junqueira/" target="_blank"
                     class="nav-link px-2 text-body-secondary">LinkedIn</a></li>
         </ul>
-        <p class="text-center text-body-secondary">© 2025 Feito com <span class="color-red">♡</span> por Rodrigo
+        <p class="text-center text-body-secondary">© 2025 Made by <span class="color-red">♡</span> for Rodrigo
             Junqueira</p>
     </footer>
 
