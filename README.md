@@ -10,6 +10,8 @@ Trabalho como Analista de Dados e Cientista de Dados.
 Este é meu portfólio profissional desenvolvido com HTML5, CSS3 e JavaScript, com foco em boas práticas de desenvolvimento, responsividade e experiência do usuário.
 Este repertório é responsável pela hospedagem do meu portfólio da web, onde vou publicar alguns projetos de maior relevância na minha carreira e estudos.
 
+<a href="https://rodrigojunqueiradev.github.io/" target="_blank">Clique aqui neste link</a> ara acessar meu portfólio ou copie e cole ele no seu navegador preferido: https://rodrigojunqueiradev.github.io/  
+
 [Clique aqui neste link](https://rodrigojunqueiradev.github.io/) para acessar meu portfólio ou copie e cole ele no seu navegador preferido: https://rodrigojunqueiradev.github.io/  
 Espero que goste da experiência!
 
