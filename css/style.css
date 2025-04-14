@@ -1,22 +1,22 @@
 /* Global */
-@import "global/global.css";
-@import "global/main-header.css";
-@import "global/secondary-header.css";
-@import "global/footer.css";
+@import "./global/global.css";
+@import "./global/main-header.css";
+@import "./global/secondary-header.css";
+@import "./global/footer.css";
 
 /* Home */
-@import "home/introduction.css";
-@import "home/summary.css";
-@import "home/skills.css";
-@import "home/academic-background.css";
-@import "home/portfolio.css";
-@import "home/section-title-bar.css";
-@import "home/home.css";
+@import "./home/introduction.css";
+@import "./home/summary.css";
+@import "./home/skills.css";
+@import "./home/academic-background.css";
+@import "./home/portfolio.css";
+@import "./home/section-title-bar.css";
+@import "./home/home.css";
 
 /* Util */
-@import "util/typography.css";
-@import "util/colors.css";
-@import "util/animations.css";
+@import "./util/typography.css";
+@import "./util/colors.css";
+@import "./util/animations.css";
 
 /* Projects */
-@import "projects/projects.css";
+@import "./projects/projects.css";
