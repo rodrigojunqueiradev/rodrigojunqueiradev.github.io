@@ -1,7 +1,5 @@
 ❗ **This is the Portuguese version of README.md, go down for the English Version** ⤵️
 
-Versão em Português do Brasil:
-
 # (PT-BR) Portfólio Profissional👋
 
 Oi, eu sou o Rodrigo.
@@ -111,8 +109,6 @@ Malfeito feito. <br>
 Made by ♡ for Rodrigo Junqueira
 
 #
-
-English version:
 
 # (EN) Professional Portfolio 👋
 
