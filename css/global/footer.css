@@ -1,0 +1,72 @@
+.site-footer {
+  background-color: var(--c11);
+  color: var(--w);
+  height: 168px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.footer-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.contact-icon {
+  width: 28px;
+  height: 28px;
+  fill: var(--w);
+}
+
+.footer-links {
+  display: flex;
+  gap: 48px;
+  justify-content: center;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: var(--w);
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.footer-links a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  height: 2px;
+  width: 100%;
+  background-color: var(--p1);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+.footer-links a:hover::after {
+  transform: scaleX(1);
+}
+
+@media (hover: none) {
+  .footer-links a::after {
+    transform: scaleX(1);
+  }
+}
+
+.footer-credit {
+  color: var(--c6);
+}
+
+.heart {
+  color: var(--p1);
+}

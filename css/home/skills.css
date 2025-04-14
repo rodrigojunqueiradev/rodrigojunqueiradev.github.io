@@ -1,0 +1,50 @@
+.skills-section {
+  background-color: var(--w);
+  padding: 64px 5vw;
+  display: flex;
+  justify-content: center;
+}
+
+.skills-wrapper {
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.skills-title {
+  color: var(--c12);
+  font-weight: 600;
+  text-align: center;
+}
+
+.skills-vector-left {
+  position: absolute;
+  left: 32px;
+  height: 24px;
+}
+
+.skills-vector-right {
+  position: absolute;
+  right: 32px;
+  height: 24px;
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+}
+
+.skill-item {
+  flex: 1 1 calc(25% - 16px); /* 4 colunas com gap */
+  min-width: 180px;
+  max-width: 240px;
+  background-color: transparent;
+  text-align: center;
+  color: var(--c12);
+  padding: 12px;
+  box-sizing: border-box;
+}

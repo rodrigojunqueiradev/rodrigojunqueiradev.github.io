@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <!-- Charset -->
+    <meta charset="UTF-8">
+
+    <!-- Responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Metatags to basic SEO -->
+    <meta name="description" content="Portfólio do Rodrigo Junqueira">
+    <meta name="author" content="Rodrigo Junqueira">
+
+    <!-- Metatags to searches -->
+    <meta name="keywords"
+        content="business intelligence, inteligência de negócios, machine learning, aprendizado de máquina, deep learning, aprendizado profundo, neural networks, redes neurais, artificial intelligence, inteligência artificial, data wrangling, manipulação de dados, feature engineering, engenharia de atributos, exploratory data analysis, análise exploratória de dados, regression, regressão, classification, classificação, clustering, agrupamento, dashboards, painéis interativos, storytelling, narrativa de dados, data strategy, estratégia de dados, KPI, indicadores-chave, power bi specialist, especialista em Power BI, tableau specialist, especialista em Tableau, jupyter, notebooks, jupyter notebook, google colab, colab, scripts python, scripts de análise, machine learning models, modelos de machine learning, supervised learning, aprendizado supervisionado, unsupervised learning, aprendizado não supervisionado, time series, séries temporais, forecasting, previsão, nlp, processamento de linguagem natural, sentiment analysis, análise de sentimentos, cloud, nuvem, azure, aws, gcp, azure data factory, pipelines de dados, apis, consumo de API, web scraping, coleta de dados web, data governance, governança de dados, data quality, qualidade de dados, business rules, regras de negócio, data security, segurança de dados, compliance, conformidade, data literacy, letramento de dados, ciências exatas, exatas, ciência aplicada, visualizações, graphs, gráficos, charts, insights, indicadores, data storytelling, relatórios, reports automatizados, math, matemática, estatística, statistic, data, dados, data professional, profissional de dados, python, pandas, numpy, matplotlib, seaborn, data developer, desenvolvedor de dados, ui, ux, uxui, r, linguagem r, r language, DAX, power query, m language">
+    <meta name="robots" content="index">
+
+    <!-- Favicon -->
+    <link rel="stylesheet" type="image/svg+xml" href="../../assets/favicon.svg">
+
+    <!-- Fallback for older navigators -->
+    <link rel="alternate icon" href="../../assets/favicon.ico" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/projects/projects.css">
+
+    <!-- Title -->
+    <title>RJ Data - Day Centers Analysis</title>
+</head>
+
+<body>
+    <!-- Secondary Header -->
+    <header class="secondary-header">
+        <div class="main-header-content">
+            <div class="main-header-branding">
+                <img src="../../assets/vectors/header-vector.svg" alt="Logo" class="main-header-logo" />
+                <p class="main-header-title font-1-l">Data with Rodrigo Junqueira</p>
+            </div>
+
+            <nav class="main-header-nav">
+                <a href="../../index-en.html" class="font-1-m">🏡 Home</a>
+                <a href="https://www.linkedin.com/in/rodrigo-junqueira/" class="font-1-m">LinkedIn</a>
+                <a href="https://github.com/rodrigojunqueiradev" class="font-1-m">GitHub</a>
+            </nav>
+        </div>
+    </header>
+    <!-- Secondary Header end -->
+
+    <!-- Project title -->
+    <section class="project-intro">
+        <h1 class="font-1-xxl">Transformation and Analysis of Public Data from Day Centers</h1>
+        <p class="project-meta font-2-l">
+            March 2025 by
+            <a href="https://www.linkedin.com/in/rodrigo-junqueira/" target="_blank">Rodrigo Junqueira</a>
+        </p>
+        <hr>
+    </section>
+    <!-- Project title end -->
+
+    <!-- Technical project summary -->
+    <section class="project-section">
+        <h2 class="font-1-xl">Technical Summary</h2>
+        <!-- <hr> -->
+        <div class="separator"></div>
+        <ul class="project-text font-2-l">
+            <li><strong>Tools:</strong> Python, Pandas, Jupyter Notebook, Microsoft Excel, Power Query</li>
+            <li><strong>Data type:</strong> SUAS Census, Public data, Day Center data</li>
+            <li><strong>Skills:</strong> ETL, Exploratory Analysis, Visualization, Storytelling, Statistics, Excel,
+                Data Transformation</li>
+        </ul>
+    </section>
+
+    <!-- External links and download -->
+    <section class="project-section">
+        <h2 class="font-1-xl">Public Data Source</h2>
+        <div class="separator"></div>
+        <div class="project-links font-2-l">
+            <a href="https://aplicacoes.mds.gov.br/sagi/snas/vigilancia/index2.php" class="project-button"
+                target="_blank">🔗 Click here to access the public data.</a>
+        </div>
+    </section>
+
+    <!-- Project body -->
+    <!-- Introduction Block (text) -->
+    <section class="project-section">
+        <h2 class="font-1-xl">Introduction</h2>
+        <div class="separator"></div>
+        <div class="project-text font-2-l">
+            <p>This project was developed as part of a freelance job request for data analysis and transformation.</p>
+            <p>As it was a private job, the developed spreadsheet is the property of the requesting client, so it will
+                not be shown in the results section, but I will include brief excerpts.</p>
+            <p>The client did not request a technical data analysis report, but rather the creation of various types of
+                charts and tables, so that he could build the report according to his needs.</p>
+            <p>Below, I will detail the entire process developed, tools used, charts, formulas, etc.</p>
+            <p>Jorge (fictitious name) requested the following:</p>
+            <p>"The day centers are institutional modalities aimed at different age groups. I need to analyze only the
+                units that serve elderly people between the years 2019 and 2023. Based on this scope, I want to collect
+                the variables below, with the respective tables and charts generated for the analyses, always
+                maintaining shades of blue in all tables and charts.</p>
+            <p>To define the variables I need to address, I used the 2023 questionnaire as a base, so some of the
+                variables from this year may be missing in the previous years, requiring adjustments in the data
+                source."</p>
+            <h3>Blocks 01 and 02 - Unit identification and characterization
+            </h3>
+            <ul>
+                <li>Variable 01 - State (UF) of the units</li>
+                <li>Variable 02 - Municipalities of the units</li>
+                <li>Variable 03 - State or municipal management</li>
+                <li>Variable 04 - Nature of the unit - governmental or non-governmental</li>
+                <li>Variable 05 - Does the unit receive financial resources from Social Assistance?</li>
+                <li>Variable 06 - Registration/record in councils</li>
+            </ul>
+            <h3>BLOCKS 03 and 04 - Physical structure and Services and Activities</h3>
+            <ul>
+                <li>Variable 07 - Accessibility conditions for people with disabilities and elderly people</li>
+                <li>Variable 08 - Presence of public transport in the area where the unit is located</li>
+                <li>Variable 09 - Service capacity per shift</li>
+                <li>Variable 10 - How many days per week do the elderly attend the unit?</li>
+                <li>Variable 11 - How many hours per day do the elderly remain at the unit?</li>
+                <li>Variable 12 - Presence of a user waiting list</li>
+            </ul>
+            <h3>BLOCK 05 - User profile</h3>
+            <ul>
+                <li>Variable 13 - Number of elderly people with disabilities or dependency attended</li>
+                <li>Variable 14 - Number of people by type of listed disability</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Development Block -->
+    <section class="project-section">
+        <h2 class="font-1-xl">Development</h2>
+        <div class="separator"></div>
+        <div class="project-text font-2-l">
+            <h3>I. Data Collection</h3>
+            <ol>
+                <li>
+                    I collected the data for the 5 years to be analyzed.
+                </li>
+                <li>
+                    I created a folder structure to facilitate access to the collected data.
+                </li>
+            </ol>
+
+            <h3>II. Initial Data Study</h3>
+            <ol>
+                <li>
+                    Each year has its own structure for the provided data, so it was necessary to identify the applied
+                    questionnaires and the data sources of the collected responses.
+                </li>
+                <p>In 2023, 24 files were provided.</p>
+                <p>In 2022, 22 files.</p>
+                <p>In 2021, 21 files.</p>
+                <p>In 2020, 23 files.</p>
+                <p>In 2019, 21 files.</p>
+                <li>
+                    Among the provided files, each year had a data source with the responses from the applied
+                    questionnaires.
+                    <p>For all years, the data source was available in ".csv", ".sav", and ".xlsx" formats.</p>
+                </li>
+                <li>
+                    Each year had a unique questionnaire, with changes in structure, question order, inclusion or
+                    removal of questions, or changes in answer options.
+                </li>
+                <li>
+                    Regarding the variables in each data source:
+                    <p>In 2023, the data source had 563 variables (columns).</p>
+                    <p>In 2022 and 2021, each had 663 variables.</p>
+                    <p>In 2020, 668 variables.</p>
+                    <p>In 2019, 571 variables.</p>
+                </li>
+                <li>
+                    For all years, a dictionary was provided for the data sources.
+                </li>
+                <li>
+                    Before starting the data transformation process for analysis, it was necessary to identify all the
+                    variables requested by the client in each data source. To support this process, a Notion
+                    documentation was created to guide the entire work.
+                </li>
+                <div>
+                    <img src="../../assets/img/projects/data-analisys-from-day-centers/notion1.png" alt="Notion Image">
+                </div>
+            </ol>
+
+            <h3>III. Organization and Pre-transformation of Data</h3>
+            <ol>
+                <li>
+                    After identifying each variable, I gathered the 5 data sources, placed them in the same directory,
+                    and renamed each one according to the respective year (2023, 2022, ...).
+                </li>
+                <li>
+                    With the directories organized, I created an Excel file responsible for transforming the data and
+                    generating a clean and organized data source.
+                </li>
+                <li>
+                    The following tools were chosen for data transformation:
+                    <p>Power Query: A powerful data transformation tool.</p>
+                    <p>Python with Pandas: For final adjustments and data unification.</p>
+                </li>
+                <div class="project-image-group">
+                    <img src="../../assets/img/projects/data-analisys-from-day-centers/Excel1.png" alt="Excel Image 1">
+                </div>
+            </ol>
+
+            <h3>Data Transformation</h3>
+            <ol>
+                <li>
+                    In Power Query, the following adjustments were made:
+                    <p>1. Data types of the used variables were corrected;</p>
+                    <p>2. Variables were renamed to be standardized across the 5 years.</p>
+                    <p>3. Many responses were stored as numeric values, so I replaced them to facilitate identification
+                        of the selected options.</p>
+                    <p>4. Clean and organized data sources were generated for each year.</p>
+                    <div class="project-image-group">
+                        <img src="../../assets/img/projects/data-analisys-from-day-centers/power-query1.png"
+                            alt="Power Query Image 1">
+                    </div>
+                </li>
+                <li>
+                    After generating the new data sources, I moved the transformation process to Python due to its ease
+                    in removing unused columns and merging the data into a single file. The steps followed were:
+                    <p>1. Importing the data into Jupyter Notebook.</p>
+                    <p>2. Creating a DataFrame with only the desired variables, already organized in the Notion
+                        documentation.</p>
+                    <p>3. Merging the data into a single data source.</p>
+                    <p>4. Exporting the new file to Excel.</p>
+                    <p>Below is part of the code used:</p>
+                    <div class="project-image-group">
+                        <img src="../../assets/img/projects/data-analisys-from-day-centers/python1.png"
+                            alt="Python Image 1">
+                    </div>
+                </li>
+                <li>
+                    The new data source now has only 45 columns, which will be used to answer the client's variables.
+                </li>
+            </ol>
+
+            <h3>Data Analysis</h3>
+            <ol>
+                <li>
+                    Since the client requested the delivery in Excel, the entire data analysis was carried out there.
+                </li>
+                <li>
+                    In Excel, a "Summary" tab was created explaining the entire project.
+                </li>
+                <li>
+                    Each requested variable was analyzed in a separate Excel tab.
+                    <div class="project-image-group">
+                        <img src="../../assets/img/projects/data-analisys-from-day-centers/Excel2.png"
+                            alt="Excel Image 2">
+                    </div>
+                </li>
+                <li>
+                    The clean and organized data source was delivered along with the analysis.
+                    <div class="project-image-group">
+                        <img src="../../assets/img/projects/data-analisys-from-day-centers/Excel3.png"
+                            alt="Excel Image 3">
+                    </div>
+                </li>
+                <li>
+                    For each variable, quantitative, percentage, and year-over-year variation tables were generated,
+                    along with charts for all tables.
+                </li>
+                <li>
+                    For quantitative tables, two bar charts with inverted axes were created, so the client could choose
+                    which one to use in their report.
+                    <div class="project-image-group">
+                        <img src="../../assets/img/projects/data-analisys-from-day-centers/Excel4.png"
+                            alt="Excel Image 4">
+                    </div>
+                </li>
+                <li>
+                    For percentage tables, stacked bar charts were generated and, for those with fewer variables, pie
+                    charts were also created.
+                    <div class="project-image-group">
+                        <img src="../../assets/img/projects/data-analisys-from-day-centers/Excel5.png"
+                            alt="Excel Image 5">
+                    </div>
+                </li>
+                <li>
+                    For all variables, percentage variation tables between years were created.
+                    <div class="project-image-group">
+                        <img src="../../assets/img/projects/data-analisys-from-day-centers/Excel6.png"
+                            alt="Excel Image 6">
+                    </div>
+                </li>
+                <li>
+                    Some variables contained geographic data in the analysis, and for these, heat maps with quantities
+                    were generated.
+                    <div class="project-image-group">
+                        <img src="../../assets/img/projects/data-analisys-from-day-centers/Excel7.png"
+                            alt="Excel Image 7">
+                    </div>
+                </li>
+                <li>
+                    For all variables, information about the study, table guidelines, and key insights were provided.
+                    <div class="project-image-group">
+                        <img src="../../assets/img/projects/data-analisys-from-day-centers/Excel9.png"
+                            alt="Excel Image 9">
+                    </div>
+                </li>
+                <li>
+                    At the end of the analysis, the Excel file contained 159 tables and 214 charts.
+                    <div>
+                        <img src="../../assets/img/projects/data-analisys-from-day-centers/Excel8.png"
+                            alt="Excel Image 8">
+                    </div>
+                </li>
+            </ol>
+    </section>
+
+
+    <!-- Results Block -->
+    <section class="project-section">
+        <h2 class="font-1-xl">Results</h2>
+        <div class="separator"></div>
+        <div class="project-text font-2-l">
+            <p>The project was a success. The client was very satisfied and provided great feedback.</p>
+        </div>
+        <hr>
+    </section>
+
+    <!-- Project body end -->
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-title font-1-xl">
+                Me contate
+                <img src="../../assets/vectors/contact-vector.svg" alt="Ícone de mão acenando" class="contact-icon" />
+            </div>
+
+            <div class="footer-links">
+                <a href="mailto:eurodrigojunqueira@gmail.com" class="font-1-m">📧 Email</a>
+                <a href="https://www.linkedin.com/in/rodrigo-junqueira/" target="_blank" class="font-1-m">LinkedIn</a>
+                <a href="https://github.com/rodrigojunqueiradev" target="_blank" class="font-1-m">GitHub</a>
+            </div>
+
+            <div class="footer-credit font-1-xs">
+                © 2025 Made by <span class="heart">♡</span> for Rodrigo Junqueira
+            </div>
+        </div>
+    </footer>
+    <!-- Footer end -->
+
+    <script src="../../js/script.js"></script>
+</body>
+
+
+</html>

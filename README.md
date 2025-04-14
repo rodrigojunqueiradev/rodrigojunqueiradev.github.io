@@ -1,88 +1,111 @@
 ❗ **This is the Portuguese version of README.md, go down for the English Version** ⤵️
 
-Versão em Português:
+Versão em Português do Brasil:
 
-# 👋 Portfólio
+# (PT-BR) Portfólio Profissional👋
 
 Oi, eu sou o Rodrigo.
 
 Sou um Profissional de Dados.
 
-Trabalho como Analista de Dados, Cientista de Dados e Analista de BI.
-Este é meu portfólio profissional desenvolvido com HTML5, CSS3, JavaScript e Bootstrap, com foco em boas práticas de desenvolvimento, responsividade e experiência do usuário.
-Neste repositório disponibilizo todos os tipo de conteúdos voltado aos meus estudos, assim como projetos reais de trabalho.
+Trabalho como Analista de Dados e Cientista de Dados.  
+Este é meu portfólio profissional desenvolvido com HTML5, CSS3 e JavaScript, com foco em boas práticas de desenvolvimento, responsividade e experiência do usuário.
+Este repertório é responsável pela hospedagem do meu portfólio da web, onde vou publicar alguns projetos de maior relevância na minha carreira e estudos.
 
-Clique neste [link](https://rodrigojunqueiradev.github.io/) para acessar meu portfólio:
-https://rodrigojunqueiradev.github.io/
+[Clique aqui neste link](https://rodrigojunqueiradev.github.io/) para acessar meu portfólio ou copie e cole ele no seu navegador preferido: https://rodrigojunqueiradev.github.io/  
+Espero que goste da experiência!
 
-![Top Langs](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=rodrigojunqueiradev&bg_color=000&border_color=30A3DC&title_color=E94D5F&text_color=FFF)
-
-## 🛠️ Tecnologias e Ferramentas
-
-- Python
-- Pandas
-- Matplotlib
-- NumPy
-- Seaborn
-- SQL
-- Power BI
-- Looker
-- R
-- Excel
-- VSCode
-- R Studio
-- Anaconda
-- Jupyter Notebook
-
-## 📝 Seções
-
-1. **Home**
-
-   - Header com link para versão em inglês
-   - Visual interativo
-
-2. **Introdução**
-
-   - Apresentação pessoal
-   - Download do CV
-
-3. **Resumo**
-
-   - Apresentação profissional
-
-4. **Portfólio**
-
-   - Grid com projetos em destaque
-   - Cards com links para os respositórios do GitHub
-
-5. **Habilidades**
-
-   - Principais habilidades que estudo e domino
-
-6. **Formação Acadêmica**
-
-   - Trajetória acadêmica
-
-7. **Cursos**
-
-   - Cursos extracurriculares que cursei ou estou cursando
-
-8. **Publicações e Estudos**
-
-   - Publicações e estudos relevantes
-
-9. **Contato**
-
-   - Links para redes sociais
-   - Footer com copyright
-
-## 📬 Contato - Fale comigo
+## Entre com contato comigo, será um prazer te conhecer:
 
 - [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rodrigo-junqueira/)
 
 - [![Gmail](https://img.shields.io/badge/Gmail-333333?style=for-the-badge&logo=gmail&logoColor=red)](mailto:eurodrigojunqueira@gmail.com)
 
-- [![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white)](https://rodrigojunqueiradev.github.io/)
+## Organização do meu portfólio:
+
+### Estrutura de pastas e arquivos:
+
+/ (raiz do projeto)  
+│  
+├── index.html  
+├── index-en.html  
+├── /projects/  
+│ └── model-for-project.html  
+│ └── model-for-project-en.html  
+│  
+├── /css/  
+│ └── style.css  
+│ ├── global/  
+│ │ ├── global.css  
+│ │ ├── main-header.css  
+│ │ ├── secondary-header.css  
+│ │ └── footer.css  
+│ ├── home/  
+│ │ └── home.css  
+│ │ └── academic-background.css  
+│ │ └── introduction.css  
+│ │ └── portfolio.css  
+│ │ └── section-title-bar.css  
+│ │ └── skills.css  
+│ │ └── summary.css  
+│ ├── projects/  
+│ │ └── projects.css  
+│ └── util/  
+│ │ └── typography.css  
+│ │ └── colors.css  
+│ │ └── animations.css  
+│  
+├── /js/  
+│ └── script.js  
+│  
+├── /assets/  
+│ ├── img/  
+│ │ └── _  
+│ ├── vectors/  
+│ └── docs/  
+│ │ └── projects  
+│ │ │ └── _  
+│ │ └── resume  
+│ └── projects/  
+│  
+├── /projects/  
+│ └── \*
+
+### Seções:
+
+1. **Header**
+
+   - Link para transição de linguagem entre as páginas.
+   - Header com navegação para a Home, LinkedIn e GitHub.
+
+2. **Introdução**
+
+   - Apresentação inicial.
+   - Algumas imagens pessoais.
+   - Download do meu currículo.
+
+3. **Resumo**
+
+   - Apresentação profissional.
+
+4. **Habilidades**
+
+   - Principais habilidades que estou estudando ou que já possuo domínio.
+
+5. **Formação Acadêmica, Cursos, Livros acadêmicos e Idiomas**
+
+   - Destaque para minha formação acadêmica.
+   - Cursos intensivos que já fiz e que são relevantes para a área de dados.
+   - Idiomas.
+
+6. **Portfólio**
+
+   - Cartões com os projetos de maior relevância.
+   - Cartões com redirecionamento para página exclusiva sobre o projeto.
+
+7. **Rodapé**
+
+   - Footer com contatos.
 
 Malfeito feito. <br>
 Made by ♡ for Rodrigo Junqueira
@@ -91,87 +114,110 @@ Made by ♡ for Rodrigo Junqueira
 
 English version:
 
-# 👋 Portfolio
+# (EN) Professional Portfolio 👋
 
 Hi, I'm Rodrigo.
 
 I'm a Data Professional.
 
-I work as a Data Analyst, Data Scientist, and BI Analyst.  
-This is my professional portfolio developed using HTML5, CSS3, JavaScript, and Bootstrap, with a focus on best development practices, responsiveness, and user experience.  
-In this repository, I provide all kinds of content related to my studies, as well as real work projects.
+I work as a Data Analyst and Data Scientist.  
+This is my professional portfolio developed with HTML5, CSS3, and JavaScript, focused on best development practices, responsiveness, and user experience.  
+This repository hosts my web portfolio, where I will publish some of the most relevant projects in my career and studies.
 
-Click this [link](https://rodrigojunqueiradev.github.io/) to access my portfolio:  
-https://rodrigojunqueiradev.github.io/
+[Click here to access my portfolio](https://rodrigojunqueiradev.github.io/) or copy and paste this link into your favorite browser: https://rodrigojunqueiradev.github.io/  
+I hope you enjoy the experience!
 
-![Top Langs](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=rodrigojunqueiradev&bg_color=000&border_color=30A3DC&title_color=E94D5F&text_color=FFF)
-
-## 🛠️ Technologies and Tools
-
-- Python
-- Pandas
-- Matplotlib
-- NumPy
-- Seaborn
-- SQL
-- Power BI
-- Looker
-- R
-- Excel
-- VSCode
-- R Studio
-- Anaconda
-- Jupyter Notebook
-
-## 📝 Sections
-
-1. **Home**
-
-   - Header with a link to the English version
-   - Interactive visual elements
-
-2. **Introduction**
-
-   - Personal introduction
-   - CV download
-
-3. **Summary**
-
-   - Professional presentation
-
-4. **Portfolio**
-
-   - Grid with featured projects
-   - Cards with links to GitHub repositories
-
-5. **Skills**
-
-   - Main skills I study and master
-
-6. **Academic Background**
-
-   - Academic journey
-
-7. **Courses**
-
-   - Extracurricular courses I have completed or am currently taking
-
-8. **Publications and Studies**
-
-   - Relevant publications and studies
-
-9. **Contact**
-
-   - Links to social media
-   - Footer with copyright
-
-## 📬 Contact - Get in touch
+## Get in touch with me, I'd love to connect:
 
 - [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rodrigo-junqueira/)
 
 - [![Gmail](https://img.shields.io/badge/Gmail-333333?style=for-the-badge&logo=gmail&logoColor=red)](mailto:eurodrigojunqueira@gmail.com)
 
-- [![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white)](https://rodrigojunqueiradev.github.io/)
+## Portfolio Structure:
 
-Mischief Managed <br>
+- Folder and file organization:
+
+/ (project root)  
+│  
+├── index.html  
+├── index-en.html  
+├── /projects/  
+│ └── model-for-project.html  
+│ └── model-for-project-en.html  
+│  
+├── /css/  
+│ └── style.css  
+│ ├── global/  
+│ │ ├── global.css  
+│ │ ├── main-header.css  
+│ │ ├── secondary-header.css  
+│ │ └── footer.css  
+│ ├── home/  
+│ │ └── home.css  
+│ │ └── academic-background.css  
+│ │ └── introduction.css  
+│ │ └── portfolio.css  
+│ │ └── section-title-bar.css  
+│ │ └── skills.css  
+│ │ └── summary.css  
+│ ├── projects/  
+│ │ └── projects.css  
+│ └── util/  
+│ │ └── typography.css  
+│ │ └── colors.css  
+│ │ └── animations.css  
+│  
+├── /js/  
+│ └── script.js  
+│  
+├── /assets/  
+│ ├── img/  
+│ │ └── _  
+│ ├── vectors/  
+│ └── docs/  
+│ │ └── projects  
+│ │ │ └── _  
+│ │ └── resume  
+│ └── projects/  
+│  
+├── /projects/  
+│ └── \*
+
+### Sections:
+
+1. **Header**
+
+   - Language switcher link between pages.
+   - Header with navigation to Home, LinkedIn, and GitHub.
+
+2. **Introduction**
+
+   - Initial introduction.
+   - A few personal images.
+   - Resume download.
+
+3. **Summary**
+
+   - Professional summary.
+
+4. **Skills**
+
+   - Key skills I'm studying or already proficient in.
+
+5. **Academic Background, Courses, Books, and Languages**
+
+   - Highlights of my academic background.
+   - Relevant intensive courses I've taken in the data field.
+   - Languages.
+
+6. **Portfolio**
+
+   - Cards featuring the most relevant projects.
+   - Cards redirecting to a dedicated project page.
+
+7. **Footer**
+
+   - Contact information.
+
+Mischief Managed. <br>  
 Made by ♡ for Rodrigo Junqueira

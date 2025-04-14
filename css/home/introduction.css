@@ -1,0 +1,90 @@
+.introduction {
+  background-color: var(--w);
+  padding: 64px 16px;
+}
+
+.introduction-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 64px;
+  flex-wrap: wrap;
+}
+
+.introduction-text {
+  flex: 1 1 500px;
+  color: var(--c12);
+}
+
+.introduction-text h1 {
+  margin-bottom: 24px;
+}
+
+.introduction-text p {
+  margin-bottom: 32px;
+  color: var(--c12);
+}
+
+.btn-download {
+  display: inline-block;
+  background-color: var(--p1);
+  color: var(--c12);
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-download:hover {
+  background-color: var(--p2);
+}
+
+.introduction-photo {
+  flex: 1 1 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-image {
+  width: 280px;
+  height: 360px;
+  border-radius: 50%;
+  object-fit: cover;
+  transition: opacity 1s ease-in-out;
+}
+
+.introduction-links{
+  display: flex;
+  gap: 48px;
+}
+
+.introduction-links a {
+  text-decoration: none;
+  color: var(--c12);
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.introduction-links a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  height: 2px;
+  width: 100%;
+  background-color: var(--p1);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+.introduction-links a:hover::after {
+  transform: scaleX(1);
+}
+
+html {
+  scroll-behavior: smooth;
+}

@@ -1,52 +1,23 @@
 :root {
-  --color-yellow: #ffaa00;
-  --color-black: #111111;
-  --color-gray: #e5e2db;
-  --color-green: #365a08;
-  --color-red: #c32e58;
-  --gradient-color: linear-gradient(#d4e157, #388e3c);
-}
+  /* Escala de cinza */
+  --c12: #000000;
+  --c11: #111111;
+  --c10: #2e2e2e;
+  --c9: #404040;
+  --c8: #595959;
+  --c7: #717171;
+  --c6: #9c9c9c;
+  --c5: #b2b2b2;
+  --c4: #cccccc;
+  --c3: #dedede;
+  --c2: #ededed;
+  --c1: #f7f7f7;
+  --w: #E0E0E0;
 
-.color-yellow {
-  color: var(--color-yellow);
-}
-
-.color-yellow-bg {
-  background-color: var(--color-yellow);
-}
-
-.color-black {
-  color: var(--color-black);
-}
-
-.color-black-bg {
-  background-color: var(--color-black);
-}
-
-.color-gray {
-  color: var(--color-gray);
-}
-
-.color-gray-bg {
-  background-color: var(--color-gray);
-}
-
-.color-green {
-  color: var(--color-green);
-}
-
-.color-green-bg {
-  background-color: var(--color-green);
-}
-
-.color-red {
-  color: var(--color-red);
-}
-
-.gradient-color {
-  color: var(--gradient-color);
-}
-
-.gradient-color-bg {
-  background-color: var(--gradient-color);
+  /* Paleta de cores principais */
+  --p5: #332200;
+  --p4: #664400;
+  --p3: #a66f00;
+  --p2: #e4a30b;
+  --p1: #ffbb00;
 }

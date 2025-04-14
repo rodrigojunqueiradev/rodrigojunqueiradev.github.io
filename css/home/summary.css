@@ -1,0 +1,37 @@
+.summary-section {
+  background-color: var(--c10);
+  padding: 64px 5vw;
+  display: flex;
+  justify-content: center;
+}
+
+.summary-wrapper {
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.summary-title {
+  color: var(--c12);
+  font-weight: 600;
+  text-align: center;
+}
+
+.summary-vector-left {
+  position: absolute;
+  left: 32px;
+  height: 24px;
+}
+
+.summary-vector-right {
+  position: absolute;
+  right: 32px;
+  height: 24px;
+}
+
+.summary-content p {
+  color: var(--w);
+  margin-bottom: 16px;
+}
