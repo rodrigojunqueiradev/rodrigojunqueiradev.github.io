@@ -10,7 +10,7 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 32px;
+  gap: 16px;
 }
 
 .summary-title {
@@ -33,7 +33,7 @@
 
 .summary-content p {
   color: var(--c11);
-  margin-bottom: 16px;
+  margin-bottom: 4px;
 }
 
 .btn-download {

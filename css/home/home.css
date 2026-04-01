@@ -1,6 +1,6 @@
 /* =================== HOME =================== */
 
-/* Introdução */
+/* Introduction */
 .intro {
   display: flex;
   justify-content: space-between;
@@ -55,7 +55,7 @@
   transition: opacity 1s ease-in-out;
 }
 
-/* Portfólio */
+/* Portfolio */
 .portfolio {
   padding: 60px 0;
 }
@@ -107,7 +107,7 @@
   color: #555;
 }
 
-/* Responsivo */
+/* Responsive */
 @media (max-width: 768px) {
   .intro {
     flex-direction: column;

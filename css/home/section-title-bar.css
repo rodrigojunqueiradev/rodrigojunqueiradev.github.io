@@ -1,12 +1,10 @@
-/* Title Bar - Unificação visual */
-
 .section-title-bar {
-  background-color: var(--p1);
+  background-color: var(--p2);
   border-radius: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 8px 58px;
+  padding: 12px 58px;
   position: relative;
   flex-wrap: wrap;
   gap: 4px;
@@ -33,10 +31,9 @@
   right: 32px;
 }
 
-/* Caso precise manter subtítulo no portfólio */
 .portfolio-subtitle {
   width: 100%;
-  margin-top: 4px;
+  margin-top: 8px;
   color: var(--c12);
   text-align: center;
 }
