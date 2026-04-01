@@ -1,0 +1,16 @@
+/* Global */
+@import "./global/global.css";
+@import "./global/main-header.css";
+@import "./global/secondary-header.css";
+@import "./global/footer.css";
+
+/* Home */
+@import "./home/summary.css";
+@import "./home/portfolio.css";
+@import "./home/section-title-bar.css";
+@import "./home/home.css";
+
+/* Util */
+@import "./util/typography.css";
+@import "./util/colors.css";
+@import "./util/animations.css";
